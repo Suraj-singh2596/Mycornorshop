@@ -1,0 +1,2 @@
+# Mycornorshop
+androidproject
