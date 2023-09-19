@@ -1,0 +1,155 @@
+﻿.searchbox_box {
+    top: 78px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.serdiv {
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #38486259;
+}
+
+
+#search_cuatomer{
+    position:absolute;
+    top:105px;
+}
+.searchinput {
+    border: none;
+    outline: none;
+}
+
+.searchcustinput {
+    border: none;
+    outline: none;
+}
+
+.clear {
+    clear: both;
+    margin-top: 20px;
+}
+
+#searchResult {
+    list-style: none;
+    padding: 0px;
+    /*position: absolute;*/
+    margin: 0;
+    top: 130px;
+    background: #fff;
+ margin:5px;
+     overflow:auto;
+    z-index: 1;
+}
+#suggestedsearchResult {
+    list-style: none;
+    padding: 0px;
+    /*position: absolute;*/
+    margin: 0;
+    top: 130px;
+    background: #fff;
+    margin: 5px;
+    z-index: 1;
+}
+
+
+    #searchResult li, #suggestedsearchResult li{
+        background: white;
+        padding: 0px;
+        
+    }
+
+        #searchResult li:nth-child(even), #suggestedsearchResult li:nth-child(even) {
+            background: #fff;
+        }
+
+        #searchResult li:hover, #suggestedsearchResult li:hover {
+            cursor: pointer;
+        }
+
+input[type=text] {
+    padding: 5px;
+    
+    letter-spacing: 1px;
+}
+
+#userDetail {
+    padding-top: 100px;
+}
+
+.item__Details {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.product_name {
+    padding: 5px;
+    background: #f1f1f1;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.input__box {
+    border: 1px solid #c5c5c5;
+    background: #f1f1f1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.image_block {
+    margin: auto;
+    text-align: center;
+     
+}
+
+#added__itemsbox {
+ 
+   padding-top: 30%;
+}
+
+#user__confermationbox {
+    position: absolute;
+    top: 30%;
+   
+}
+
+.searchcustomerbynumber {
+    background: #384862;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.searchcustinput::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.validationtext{
+    color:red;
+}
+
+.footer__ {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background: #384862 !important;
+    color: white;
+}
+
+.user__img  img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid gainsboro;
+}
+.product_price{
+    font-size:12px;
+}
+
+.product_QTY {
+    font-size: 12px;
+}

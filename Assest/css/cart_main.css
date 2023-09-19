@@ -1,0 +1,157 @@
+﻿body {
+}
+
+
+.productpic img {
+    width: 100%;
+    height: 75px;
+    margin: 10px;
+}
+
+.productpic {
+    text-align: center;
+}
+
+.tag {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.itemdetails {
+    /*margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);*/
+    font-size: 13px;
+}
+
+.itemprice {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media (max-width:768px) {
+    /*.itemdetails {
+        left: 30%;
+    }*/
+}
+
+@media (min-width:768px) {
+    .productpic img {
+        width: 50% !important;
+        margin: 10px !important;
+    }
+
+    .qtySelector {
+        margin-top: 5px !important;
+    }
+}
+
+.qtySelector {
+    /*border: 1px solid #ddd;*/
+    width: 80px;
+    height: 25px;
+    margin: auto;
+    float: right;
+    margin: 2px;
+    margin-top: -15px;
+    /*margin: 56px auto 0px 120px;*/
+}
+
+.boxshadow {
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.35);
+    border: none !important;
+}
+
+.qtySelector .fa {
+    padding: 5px 2px;
+    width: 20px;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+}
+
+   /* .qtySelector .fa.clicked {
+        font-size: 12px;
+        padding: 12px 5px;
+    }*/
+
+.qtySelector .fa-minus {
+    border-right: 1px solid #ddd0;
+    background: #55e6c1;
+    color: white;
+    border-radius:3px;
+}
+
+.qtySelector .fa-plus {
+    border-right: 1px solid #ddd0;
+    background: #55e6c1;
+    color: white;
+    border-radius: 3px;
+}
+
+.qtySelector .qtyValue {
+    border: none;
+    padding: 5px;
+    width: 35px;
+    height: 100%;
+    float: left;
+    text-align: center
+}
+
+.card {
+    border-radius: 5px !important;
+}
+
+.checkoutitems {
+}
+
+.remove {
+    float: right;
+    margin: 5px;
+    color: red;
+}
+
+.continue {
+    float: right;
+    background: #55e6c1;
+    padding: 3px;
+    border-radius: 7px;
+    color: white;
+}
+
+.subtotal {
+    float: right;
+}
+
+.lablel {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.checkoutbtn {
+    background: #215890;
+    color: white;
+}
+
+
+.typeadrs {
+    background: #747474;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: -15px;
+    color:white;
+}
+
+.changeaddressbtn a {
+    border: .5px solid #0eba8e;
+    padding: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+    padding-bottom: 2px;
+    float: right;
+    color: #0bbf91;
+}

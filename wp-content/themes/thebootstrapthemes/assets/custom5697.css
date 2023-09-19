@@ -1,0 +1,29 @@
+span#promo-description{
+	
+	
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+    color: #BDBFBA !important;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    text-align: center;
+    background: none;
+}
+a.button-name {
+
+	background: #ffb43a;
+    color: #736034;
+    font-weight: bold;
+    display: inline-block;
+    padding: 4px 13px;
+    border-radius: 22px;
+    margin-right: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+}
+
+ 

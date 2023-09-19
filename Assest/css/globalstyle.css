@@ -1,0 +1,342 @@
+﻿body {
+}
+
+.bg-blue {
+    background: #0070C0 !important;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    height: 80px;
+}
+
+
+
+.bg-green {
+    background: #00AD5C !important;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    height: 80px;
+}
+
+.cartcounts {
+    font-size: 14px;
+    margin-top: -21px;
+    margin-left: 52px;
+    background: #0070c0;
+    color: white;
+    width: 20px;
+    border-radius: 20px;
+    z-index: 9999;
+    box-shadow: 0 2.8px 1.2px rgb(0 0 0 / 3%), 0 -2.3px 5.3px rgb(0 0 0 / 5%), 0 0.5px 1px rgb(0 0 0 / 6%), 0 3.3px 17.9px rgb(0 0 0 / 7%), 0 11.8px 37.4px rgb(0 0 0 / 9%), 0 0px 0px rgb(0 0 0 / 12%);
+}
+
+ 
+
+img {
+    font-size: 8px;
+}
+.userpic {
+    display: none !important;
+}
+
+.bg-light {
+    background: #384862 !important;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    height: 80px;
+}
+
+.btnstyle {
+    background: linear-gradient(107deg, rgba(18,198,218,1) 0%, rgba(57,207,193,1) 100%) !important;
+    color: white;
+}
+
+@keyframes gradient {
+    0% {
+        background: radial-gradient(circle at center, rgba( 255, 125, 125, 0 ) 0%, #fff 0%, #fff 100%);
+    }
+
+    25% {
+        background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.3 ) 24%, #fff 25%, #fff 100%);
+    }
+
+    50% {
+        background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.5 ) 49%, #fff 50%, #fff 100%);
+    }
+
+    75% {
+        background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.8 ) 74%, #fff 75%, #fff 100%);
+    }
+
+    100% {
+        color: #fff;
+        background: radial-gradient(circle at center, #f88 99%, #fff 100%, #fff 100%);
+    }
+}
+
+
+
+
+.btnstyle:active {
+    /* set time duration to your needs */
+    animation: gradient 100ms !important;
+    background: linear-gradient(107deg, rgb(56 72 98)0%,rgb(41 106 185) 100%) !important;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+
+
+
+.btnstyle:hover {
+    z-index: 1000;
+    background: #ff3f81;
+    opacity: 1;
+    color: white !important;
+}
+
+
+
+
+
+
+
+.w-25 {
+    width: 30% !important;
+}
+
+
+
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+
+.menuopt:hover{
+    background:#eaeaea!important;
+
+}
+
+.menuopt a .svg:hover {
+    fill: #55e6c1 !important;
+}
+
+
+.pmd-alert {
+    background: #666666 !important;
+    border-radius: 5px !important;
+    text-align:center!important;
+    margin-top:20%!important;
+}
+ 
+
+
+/*loader css start*/
+
+div#preload {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #131313c9;
+    z-index: 9999999;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    top: 0;
+}
+
+.sk-folding-cube {
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+    .sk-folding-cube .sk-cube {
+        float: left;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .sk-folding-cube .sk-cube2 {
+        -webkit-transform: scale(1.1) rotateZ(90deg);
+        transform: scale(1.1) rotateZ(90deg);
+    }
+
+    .sk-folding-cube .sk-cube4 {
+        -webkit-transform: scale(1.1) rotateZ(270deg);
+        transform: scale(1.1) rotateZ(270deg);
+    }
+
+    .sk-folding-cube .sk-cube3 {
+        -webkit-transform: scale(1.1) rotateZ(180deg);
+        transform: scale(1.1) rotateZ(180deg);
+    }
+
+    .sk-folding-cube .sk-cube:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+        animation: sk-foldCubeAngle 2.4s infinite linear both;
+        -webkit-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+        background: #19bfcc;
+    }
+
+    .sk-folding-cube .sk-cube2:before {
+        -webkit-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+    }
+
+    .sk-folding-cube .sk-cube4:before {
+        -webkit-animation-delay: 0.9s;
+        animation-delay: 0.9s;
+    }
+
+    .sk-folding-cube .sk-cube3:before {
+        -webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+    }
+
+@keyframes sk-foldCubeAngle {
+    0%, 10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+
+    25%, 75% {
+        -webkit-transform: perspective(140px) rotateX(0);
+        transform: perspective(140px) rotateX(0);
+        opacity: 1;
+    }
+
+    100%, 90% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+
+/*loader css end*/
+
+/* confirmation modal css*/
+.modal-confirm {
+    color: #636363;
+    width: 400px;
+}
+
+    .modal-confirm .modal-content {
+        padding: 20px;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .modal-confirm .modal-header {
+        border-bottom: none;
+        position: relative;
+    }
+
+    .modal-confirm h4 {
+        text-align: center;
+        font-size: 26px;
+        margin: 30px 0 -10px;
+    }
+
+    .modal-confirm .close {
+        position: absolute;
+        top: -5px;
+        right: -2px;
+    }
+
+    .modal-confirm .modal-body {
+        color: #999;
+    }
+
+    .modal-confirm .modal-footer {
+        border: none;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 13px;
+        padding: 10px 15px 25px;
+    }
+
+        .modal-confirm .modal-footer a {
+            color: #999;
+        }
+
+    .modal-confirm .icon-box {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+        border-radius: 50%;
+        z-index: 9;
+        text-align: center;
+        border: 3px solid #28a745;
+    }
+
+        .modal-confirm .icon-box i {
+            color: #28a745;
+            font-size: 46px;
+            display: inline-block;
+            margin-top: 13px;
+        }
+
+    .modal-confirm .btn, .modal-confirm .btn:active {
+        color: #fff;
+        border-radius: 4px;
+        background: #60c7c1;
+        text-decoration: none;
+        transition: all 0.4s;
+        line-height: normal;
+        min-width: 120px;
+        border: none;
+        min-height: 40px;
+        border-radius: 3px;
+        margin: 0 5px;
+    }
+
+    .modal-confirm .btn-secondary {
+        background: #c1c1c1;
+    }
+
+        .modal-confirm .btn-secondary:hover, .modal-confirm .btn-secondary:focus {
+            background: #a8a8a8;
+        }
+
+    .modal-confirm .btn-danger {
+        background: #f15e5e;
+    }
+
+        .modal-confirm .btn-danger:hover, .modal-confirm .btn-danger:focus {
+            background: #ee3535;
+        }
+
+.trigger-btn {
+    display: inline-block;
+    margin: 100px auto;
+}
+
+/*confirmation modal css end*/
